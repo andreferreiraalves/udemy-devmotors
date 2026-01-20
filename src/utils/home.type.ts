@@ -13,8 +13,10 @@ export interface HomeProps {
         url?: string;
       };
       about?: {
-        description?: string;
-        banner?: string;
+        description: string;
+        banner: {
+          url: string
+        };
       };
       services?: HomeServiceProps[];
       contact?: {
